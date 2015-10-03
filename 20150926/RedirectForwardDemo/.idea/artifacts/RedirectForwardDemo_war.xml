@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="RedirectForwardDemo:war">
+    <output-path>$PROJECT_DIR$/out/artifacts/RedirectForwardDemo_war</output-path>
+    <root id="archive" name="demo.war">
+      <element id="artifact" artifact-name="RedirectForwardDemo:war exploded" />
+    </root>
+  </artifact>
+</component>
