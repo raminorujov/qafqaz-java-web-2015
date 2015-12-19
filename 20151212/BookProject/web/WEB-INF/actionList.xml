@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-list>
+    
+    <action>
+        <name>default</name>
+        <page>index.jsp</page>
+        <class>bookproject.web.action.DefaultAction</class>
+        <forward>false</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>test</name>
+        <page>/WEB-INF/view/test.jsp</page>
+        <class>bookproject.web.action.TestAction</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>showPublisherList</name>
+        <page>/WEB-INF/view/publisher/list.jsp</page>
+        <class>bookproject.web.action.ShowPublisherList</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>viewPublisher</name>
+        <page>/WEB-INF/view/publisher/view.jsp</page>
+        <class>bookproject.web.action.ViewPublisher</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>viewBook</name>
+        <page>/WEB-INF/view/book/view.jsp</page>
+        <class>bookproject.web.action.ViewBook</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>viewAuthor</name>
+        <page>/WEB-INF/view/author/view.jsp</page>
+        <class>bookproject.web.action.ViewAuthor</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>login</name>
+        <page>login.jsp</page>
+        <class>bookproject.web.action.LoginAction</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+</action-list>
