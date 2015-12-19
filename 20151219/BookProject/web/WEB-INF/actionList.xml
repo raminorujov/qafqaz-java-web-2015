@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<action-list>
+
+    <action>
+        <name>dashboard</name>
+        <page>/WEB-INF/view/user/view.jsp</page>
+        <class>bookproject.web.action.DashboardAction</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+        
+    <action>
+        <name>default</name>
+        <page>index.jsp</page>
+        <class>bookproject.web.action.DefaultAction</class>
+        <forward>false</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>test</name>
+        <page>/WEB-INF/view/test.jsp</page>
+        <class>bookproject.web.action.TestAction</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>showPublisherList</name>
+        <page>/WEB-INF/view/publisher/list.jsp</page>
+        <class>bookproject.web.action.ShowPublisherList</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>viewPublisher</name>
+        <page>/WEB-INF/view/publisher/view.jsp</page>
+        <class>bookproject.web.action.ViewPublisher</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>addPublisher</name>
+        <page>/WEB-INF/view/publisher/add.jsp</page>
+        <class>bookproject.web.action.AddPublisherAction</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+     <action>
+        <name>savePublisher</name>
+        <page>/WEB-INF/view/publisher/save.jsp</page>
+        <class>bookproject.web.action.SavePublisherAction</class>
+        <forward>false</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>viewBook</name>
+        <page>/WEB-INF/view/book/view.jsp</page>
+        <class>bookproject.web.action.ViewBook</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    <action>
+        <name>viewAuthor</name>
+        <page>/WEB-INF/view/author/view.jsp</page>
+        <class>bookproject.web.action.ViewAuthor</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+    
+    
+    <action>
+        <name>login</name>
+        <page>login.jsp</page>
+        <class>bookproject.web.action.LoginAction</class>
+        <forward>true</forward>
+        <output>false</output>
+    </action>
+    
+     <action>
+        <name>logout</name>
+        <page>logout.jsp</page>
+        <class>bookproject.web.action.LogoutAction</class>
+        <forward>false</forward>
+        <output>false</output>
+    </action>
+    
+       
+</action-list>
