@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/BookProject">
+
+<Resource name="jdbc/book" auth="Container"
+    type="javax.sql.DataSource" 
+    driverClassName="oracle.jdbc.OracleDriver"
+    url="jdbc:oracle:thin:@10.10.1.63:1521:ORCL"
+    username="comp2012" password="comp2012" 
+    maxActive="20" maxIdle="10"
+    maxWait="-1"
+    validationQuery = "select 1 from dual"
+/>
+
+</Context>
